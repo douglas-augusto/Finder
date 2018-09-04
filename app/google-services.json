@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "308203503648",
+    "firebase_url": "https://finder-aliatec.firebaseio.com",
+    "project_id": "finder-aliatec",
+    "storage_bucket": "finder-aliatec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308203503648:android:f5ad2f709592d8eb",
+        "android_client_info": {
+          "package_name": "com.aliatec.douglas.finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308203503648-ujke787n5tne4jc6rd4v5gt9flo6fvvu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aliatec.douglas.finder",
+            "certificate_hash": "f21d3b3443ea6e6a21e21a62722b15191dad707f"
+          }
+        },
+        {
+          "client_id": "308203503648-rjbv1ac9drdil7t0k1a38671ggo3g0en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW7QW__UWh9_AK2dzQJPkIMqLWoFHFhAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308203503648-rjbv1ac9drdil7t0k1a38671ggo3g0en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
