@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -128,24 +128,201 @@
             </android.support.v7.widget.CardView>
         </RelativeLayout>
 
-   <!-- <FrameLayout
+    <!--Inicio dados do perfil-->
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingLeft="25dp"
+
+
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="bottom|end"
-        android:padding="16dp">-->
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_action_location"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="Local:"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/gray_deep"
+            android:text="Picos,"/>
+        <TextView
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="18dp"
+            android:textColor="@color/gray_deep"
+            android:text="Piaui"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_action_tag"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="Tags:"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:textColor="@color/gray_deep"
+                android:text="#lazer"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:textColor="@color/gray_deep"
+                android:text="#games"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textSize="18dp"
+                android:textColor="@color/gray_deep"
+                android:text="#lanches"/>
+        </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/gray_deep"
+                    android:text="#dançar"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray_deep"
+                    android:text="#shows"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray_deep"
+                    android:text="#esportes"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:paddingLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="29dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ic_camera_alt"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"
+                    android:text=" Instagram:"/>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="18dp"
+                    android:textColor="@color/gray_deep"
+                    android:text="joaquininha"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
 
         <io.github.yavski.fabspeeddial.FabSpeedDial
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
-            android:layout_marginTop="30dp"
             app:fabGravity="bottom_end"
             app:fabMenu="@menu/botton_navigation_main"
             app:fabBackgroundTint="@color/blue_primary_dark"
             app:fabDrawableTint="@color/white"
             app:miniFabTitleTextColor="@color/black"/>
 
-   <!-- </FrameLayout>-->
-
-
-</LinearLayout>
+</FrameLayout>
