@@ -38,6 +38,7 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="300dp"
+                app:cardCornerRadius="20dp"
                 android:layout_height="90dp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="220dp">
@@ -68,7 +69,7 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="10dp"
                             android:text="125"
-                            android:textColor="@color/blue_primary"
+                            android:textColor="@color/red_primary"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -93,7 +94,7 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="10dp"
                             android:text="1205"
-                            android:textColor="@color/blue_primary"
+                            android:textColor="@color/red_primary"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -118,7 +119,7 @@
                             android:layout_height="wrap_content"
                             android:paddingTop="10dp"
                             android:text="360"
-                            android:textColor="@color/blue_primary"
+                            android:textColor="@color/red_primary"
                             android:textSize="20sp"
                             android:textStyle="bold" />
 
@@ -128,20 +129,21 @@
             </android.support.v7.widget.CardView>
         </RelativeLayout>
 
+
     <!--Inicio dados do perfil-->
+
 
     <LinearLayout
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginLeft="5dp"
+        android:layout_marginLeft="20dp"
         android:layout_gravity="center"
         android:layout_marginTop="140dp">
-    <LinearLayout
+
+        <LinearLayout
         android:orientation="horizontal"
         android:paddingLeft="25dp"
-
-
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -153,7 +155,7 @@
             android:layout_gravity="center_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
+            android:textSize="16dp"
             android:textColor="@color/black"
             android:text="Local:"/>
         <TextView
@@ -162,8 +164,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="18dp"
-            android:textColor="@color/gray_deep"
+            android:textSize="16dp"
+            android:textColor="@color/red_primary"
             android:text="Picos,"/>
         <TextView
             android:textStyle="bold"
@@ -171,8 +173,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:textSize="18dp"
-            android:textColor="@color/gray_deep"
+            android:textSize="16dp"
+            android:textColor="@color/red_primary"
             android:text="Piaui"/>
     </LinearLayout>
 
@@ -197,7 +199,7 @@
                 android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="18dp"
+                android:textSize="16dp"
                 android:textColor="@color/black"
                 android:text="Tags:"/>
             <TextView
@@ -206,8 +208,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:textSize="18dp"
-                android:textColor="@color/gray_deep"
+                android:textSize="16dp"
+                android:textColor="@color/red_primary"
                 android:text="#lazer"/>
             <TextView
                 android:textStyle="bold"
@@ -215,8 +217,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:textSize="18dp"
-                android:textColor="@color/gray_deep"
+                android:textSize="16dp"
+                android:textColor="@color/red_primary"
                 android:text="#games"/>
             <TextView
                 android:textStyle="bold"
@@ -224,8 +226,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                android:textSize="18dp"
-                android:textColor="@color/gray_deep"
+                android:textSize="16dp"
+                android:textColor="@color/red_primary"
                 android:text="#lanches"/>
         </LinearLayout>
     </LinearLayout>
@@ -247,9 +249,9 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
+                    android:textSize="16dp"
                     android:layout_marginLeft="5dp"
-                    android:textColor="@color/gray_deep"
+                    android:textColor="@color/red_primary"
                     android:text="#dançar"/>
                 <TextView
                     android:textStyle="bold"
@@ -257,8 +259,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:textSize="18dp"
-                    android:textColor="@color/gray_deep"
+                    android:textSize="16dp"
+                    android:textColor="@color/red_primary"
                     android:text="#shows"/>
                 <TextView
                     android:textStyle="bold"
@@ -266,8 +268,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:textSize="18dp"
-                    android:textColor="@color/gray_deep"
+                    android:textSize="16dp"
+                    android:textColor="@color/red_primary"
                     android:text="#esportes"/>
             </LinearLayout>
         </LinearLayout>
@@ -277,7 +279,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="15dp">
             <LinearLayout
                 android:orientation="horizontal"
                 android:paddingLeft="25dp"
@@ -292,7 +294,7 @@
                     android:layout_gravity="center_vertical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18dp"
+                    android:textSize="16dp"
                     android:textColor="@color/black"
                     android:text=" Instagram:"/>
                 <TextView
@@ -301,19 +303,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:textSize="18dp"
-                    android:textColor="@color/gray_deep"
+                    android:textSize="16dp"
+                    android:textColor="@color/red_primary"
                     android:text="joaquininha"/>
             </LinearLayout>
+
         </LinearLayout>
 
-
-
-
     </LinearLayout>
-
-
-
 
         <io.github.yavski.fabspeeddial.FabSpeedDial
             android:layout_width="wrap_content"
@@ -321,8 +318,10 @@
             android:layout_gravity="bottom|end"
             app:fabGravity="bottom_end"
             app:fabMenu="@menu/botton_navigation_main"
-            app:fabBackgroundTint="@color/blue_primary_dark"
+            app:fabBackgroundTint="@color/red_primary"
             app:fabDrawableTint="@color/white"
             app:miniFabTitleTextColor="@color/black"/>
+
+
 
 </FrameLayout>

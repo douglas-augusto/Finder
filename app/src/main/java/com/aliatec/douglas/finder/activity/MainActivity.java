@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.Toolbar;
 
 import com.aliatec.douglas.finder.R;
 import com.aliatec.douglas.finder.adapter.TabAdapter;
@@ -25,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
         slidingTabLayout = (SlidingTabLayout) findViewById(R.id.slid_tab);
         viewPager = (ViewPager) findViewById(R.id.vp_pagina);
 
+
         //Configurar sliding tabs
         slidingTabLayout.setDistributeEvenly(true);
-        slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this,R.color.colorAccent));
+        slidingTabLayout.setSelectedIndicatorColors(ContextCompat.getColor(this,R.color.red_primary));
 
         TabAdapter tabAdapter = new TabAdapter( getSupportFragmentManager() );
         viewPager.setAdapter(tabAdapter);
