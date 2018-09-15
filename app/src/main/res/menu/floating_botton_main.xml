@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemCamera"
+        android:icon="@drawable/ic_camera_enhance"
+        android:title="Perfil"/>
+
+    <item
+        android:id="@+id/itemPalavraChave"
+        android:icon="@drawable/ic_action_search"
+        android:title="Converas"/>
+
+    <item
+        android:id="@+id/itemGaleria"
+        android:icon="@drawable/ic_photo"
+        android:title="Galeria"/>
+
+</menu>

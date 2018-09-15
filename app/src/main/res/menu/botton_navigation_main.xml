@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
 
     <item
-        android:id="@+id/itemCamera"
+        android:id="@+id/abaPerfil"
+        android:icon="@drawable/ic_person"
+        android:title="Perfil"/>
+
+    <item
+        android:id="@+id/abaConversas"
+        android:icon="@drawable/ic_chat"
+        android:title="Converas"/>
+
+    <item
+        android:id="@+id/abaFotos"
         android:icon="@drawable/ic_camera_enhance"
-        android:title="Camera"/>
+        android:title="Fotos"/>
 
     <item
-        android:id="@+id/itemPalavraChave"
+        android:id="@+id/abaBuscas"
         android:icon="@drawable/ic_action_search"
-        android:title="Palavra chave"/>
+        android:title="Buscas"/>
 
     <item
-        android:id="@+id/itemGaleria"
-        android:icon="@drawable/ic_photo"
-        android:title="Galeria"/>
+        android:id="@+id/guiaFinders"
+        android:icon="@drawable/ic_tag_faces"
+        android:title="Finders"/>
+
+
 
 </menu>

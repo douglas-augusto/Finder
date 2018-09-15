@@ -1,5 +1,6 @@
 package com.aliatec.douglas.finder.activity;
 
+import android.support.design.widget.BottomNavigationView;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -7,10 +8,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.Toolbar;
 
 import com.aliatec.douglas.finder.R;
 import com.aliatec.douglas.finder.adapter.TabAdapter;
+import com.aliatec.douglas.finder.helper.BottomNavigationViewHelper;
 import com.aliatec.douglas.finder.helper.SlidingTabLayout;
 
 public class MainActivity extends AppCompatActivity {
@@ -18,14 +19,13 @@ public class MainActivity extends AppCompatActivity {
     private SlidingTabLayout slidingTabLayout;
     private ViewPager viewPager;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         slidingTabLayout = (SlidingTabLayout) findViewById(R.id.slid_tab);
-        viewPager = (ViewPager) findViewById(R.id.vp_pagina);
-
 
         //Configurar sliding tabs
         slidingTabLayout.setDistributeEvenly(true);
@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(tabAdapter);
 
         slidingTabLayout.setViewPager(viewPager);
+
+        BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation);
+        BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);
 
     }
 

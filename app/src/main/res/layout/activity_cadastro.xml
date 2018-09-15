@@ -1,9 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.CadastroActivity">
+    android:background="@drawable/gradientbackground"
+    tools:context=".activity.CadastroActivity"
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/profile" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "Escolha uma foto de perfil"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_height="match_parent"
+                android:textSize="14dp"
+                android:textColor="@color/white"
+                android:text="Dados da conta"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Digite seu email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Escolha uma senha"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Repita sua senha"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:text="Dados do perfil"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Cidade"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Estado"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:background="@drawable/arredondado"
+                android:textColorHint="@color/gray_deep"
+                android:hint="Rede social"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:text="Tags"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/nomeTags"
+                android:entries="@array/lista_tags"
+                android:spinnerMode="dialog"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner2"
+                android:layout_marginTop="15dp"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/lista_tags"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner3"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:spinnerMode="dialog"
+                android:layout_height="match_parent"
+                android:entries="@array/lista_tags"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner4"
+                android:layout_marginTop="15dp"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/lista_tags"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner5"
+                android:layout_marginTop="15dp"
+                android:spinnerMode="dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/lista_tags"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <Spinner
+                android:id="@+id/listaTagsSpinner6"
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:spinnerMode="dialog"
+                android:entries="@array/lista_tags"
+                android:prompt="@string/nomeTags"
+                android:background="@drawable/arredondado"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:text="Reconhecimento Facial"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="@string/texto_reconhecimento_facial"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_deep"
+                android:background="@drawable/arredondado"
+                android:text="Tirar uma foto"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_deep"
+                android:background="@drawable/arredondado"
+                android:text="Finalizar cadastro"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

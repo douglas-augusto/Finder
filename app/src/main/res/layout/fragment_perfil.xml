@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.aliatec.douglas.finder.activity.MainActivity"
-    android:background="@color/white"
     android:orientation="vertical">
 
         <RelativeLayout
@@ -139,7 +138,7 @@
         android:orientation="vertical"
         android:layout_marginLeft="20dp"
         android:layout_gravity="center"
-        android:layout_marginTop="140dp">
+        android:layout_marginTop="145dp">
 
         <LinearLayout
         android:orientation="horizontal"
@@ -317,11 +316,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             app:fabGravity="bottom_end"
-            app:fabMenu="@menu/botton_navigation_main"
+            app:fabMenu="@menu/floating_botton_main"
             app:fabBackgroundTint="@color/red_primary"
             app:fabDrawableTint="@color/white"
             app:miniFabTitleTextColor="@color/black"/>
-
-
 
 </FrameLayout>

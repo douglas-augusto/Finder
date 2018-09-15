@@ -17,9 +17,8 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60dp"
+        android:layout_marginLeft="68dp"
         android:layout_marginRight="60dp"
-        android:layout_marginTop="-70dp"
         app:srcCompat="@drawable/finderlogo" />
 
     <EditText
@@ -82,10 +81,12 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/botaoAbrirTelaCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
+        android:clickable="true"
         android:text="Ainda não tem uma conta? Cadastre-se!"
         android:textColor="@color/white"
         android:textSize="15dp" />
